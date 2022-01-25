@@ -1,0 +1,19 @@
+
+
+enable 
+	configure terminal
+		username yasser password 123
+		enable password 123
+
+		interface fastether 0/0
+			no shutdown
+			ip address 10.10.10.12 255.255.255.252
+			exit 
+
+		hostname Admin
+		banner motd #This is a restricted area ... GET OUT NOW ... Cyber dogs online#
+		exit
+	exit
+exit
+
+	
