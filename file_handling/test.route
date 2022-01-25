@@ -1,0 +1,17 @@
+<testNode> display ip routing-table
+Route Flags: R - relay, D - download to fib
+------------------------------------------------------------------------------
+Routing Tables: Public
+         Destinations : 7        Routes : 7        
+
+Destination/Mask    Proto   Pre  Cost      Flags NextHop         Interface
+
+        0.0.0.0/0   Static  60   0          RD   10.74.145.1     Vlanif192
+        5.5.5.0/30  Direct  0    0           D   5.5.5.1         Vlanif999
+        5.5.5.1/32  Direct  0    0           D   127.0.0.1       Vlanif999
+    10.74.145.0/27  Direct  0    0           D   10.74.145.9     Vlanif192
+    10.74.145.9/32  Direct  0    0           D   127.0.0.1       Vlanif192
+      127.0.0.0/8   Direct  0    0           D   127.0.0.1       InLoopBack0
+      127.0.0.1/32  Direct  0    0           D   127.0.0.1       InLoopBack0
+
+<testNode>
