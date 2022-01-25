@@ -1,0 +1,14 @@
+router ospf 1
+	router-id 1.1.1.1
+	network 0.0.0.0 255.255.255.255
+
+
+if lo 10 up
+if lo 20 down
+if lo 30 up
+if lo 40 up
+if lo 50 down
+if lo 60 up
+if lo 70 up
+if lo 80 down
+if lo 90 up
