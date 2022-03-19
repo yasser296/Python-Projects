@@ -1,0 +1,174 @@
+PING 192.168.110.140 (192.168.110.140) 56(84) bytes of data.
+64 bytes from 192.168.110.140: icmp_seq=1 ttl=255 time=14.10 ms
+64 bytes from 192.168.110.140: icmp_seq=2 ttl=255 time=4.56 ms
+64 bytes from 192.168.110.140: icmp_seq=3 ttl=255 time=57.5 ms
+64 bytes from 192.168.110.140: icmp_seq=4 ttl=255 time=16.1 ms
+64 bytes from 192.168.110.140: icmp_seq=5 ttl=255 time=49.5 ms
+
+--- 192.168.110.140 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4008ms
+rtt min/avg/max/mdev = 4.555/28.528/57.509/20.935 ms
+PING 192.168.110.200 (192.168.110.200) 56(84) bytes of data.
+64 bytes from 192.168.110.200: icmp_seq=1 ttl=255 time=258 ms
+64 bytes from 192.168.110.200: icmp_seq=2 ttl=255 time=273 ms
+64 bytes from 192.168.110.200: icmp_seq=3 ttl=255 time=278 ms
+64 bytes from 192.168.110.200: icmp_seq=4 ttl=255 time=286 ms
+64 bytes from 192.168.110.200: icmp_seq=5 ttl=255 time=304 ms
+
+--- 192.168.110.200 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4007ms
+rtt min/avg/max/mdev = 257.565/279.620/303.575/15.143 ms
+PING 192.168.110.201 (192.168.110.201) 56(84) bytes of data.
+64 bytes from 192.168.110.201: icmp_seq=1 ttl=255 time=11.9 ms
+64 bytes from 192.168.110.201: icmp_seq=2 ttl=255 time=16.4 ms
+64 bytes from 192.168.110.201: icmp_seq=3 ttl=255 time=25.9 ms
+64 bytes from 192.168.110.201: icmp_seq=4 ttl=255 time=29.3 ms
+64 bytes from 192.168.110.201: icmp_seq=5 ttl=255 time=54.9 ms
+
+--- 192.168.110.201 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4008ms
+rtt min/avg/max/mdev = 11.857/27.674/54.867/14.981 ms
+PING 192.168.110.202 (192.168.110.202) 56(84) bytes of data.
+64 bytes from 192.168.110.202: icmp_seq=1 ttl=255 time=15.4 ms
+64 bytes from 192.168.110.202: icmp_seq=2 ttl=255 time=24.4 ms
+64 bytes from 192.168.110.202: icmp_seq=3 ttl=255 time=31.3 ms
+64 bytes from 192.168.110.202: icmp_seq=4 ttl=255 time=43.6 ms
+64 bytes from 192.168.110.202: icmp_seq=5 ttl=255 time=46.5 ms
+
+--- 192.168.110.202 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4026ms
+rtt min/avg/max/mdev = 15.411/32.248/46.521/11.660 ms
+PING 192.168.110.203 (192.168.110.203) 56(84) bytes of data.
+64 bytes from 192.168.110.203: icmp_seq=1 ttl=255 time=30.4 ms
+64 bytes from 192.168.110.203: icmp_seq=2 ttl=255 time=53.10 ms
+64 bytes from 192.168.110.203: icmp_seq=3 ttl=255 time=67.4 ms
+64 bytes from 192.168.110.203: icmp_seq=4 ttl=255 time=57.2 ms
+64 bytes from 192.168.110.203: icmp_seq=5 ttl=255 time=73.0 ms
+
+--- 192.168.110.203 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4012ms
+rtt min/avg/max/mdev = 30.387/56.384/73.006/14.689 ms
+PING 192.168.110.204 (192.168.110.204) 56(84) bytes of data.
+64 bytes from 192.168.110.204: icmp_seq=1 ttl=255 time=7.30 ms
+64 bytes from 192.168.110.204: icmp_seq=2 ttl=255 time=14.7 ms
+64 bytes from 192.168.110.204: icmp_seq=3 ttl=255 time=6.80 ms
+64 bytes from 192.168.110.204: icmp_seq=4 ttl=255 time=31.9 ms
+64 bytes from 192.168.110.204: icmp_seq=5 ttl=255 time=45.2 ms
+
+--- 192.168.110.204 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4008ms
+rtt min/avg/max/mdev = 6.795/21.182/45.160/15.043 ms
+PING 192.168.110.205 (192.168.110.205) 56(84) bytes of data.
+64 bytes from 192.168.110.205: icmp_seq=1 ttl=255 time=8.31 ms
+64 bytes from 192.168.110.205: icmp_seq=2 ttl=255 time=8.31 ms
+64 bytes from 192.168.110.205: icmp_seq=3 ttl=255 time=53.2 ms
+64 bytes from 192.168.110.205: icmp_seq=4 ttl=255 time=51.2 ms
+64 bytes from 192.168.110.205: icmp_seq=5 ttl=255 time=55.10 ms
+
+--- 192.168.110.205 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4008ms
+rtt min/avg/max/mdev = 8.305/35.410/55.976/22.182 ms
+--------------------------------------------------------------------------------
+2022-02-20 12:50:01.764571
+192.168.110.140 is reachable.
+192.168.110.200 is reachable.
+192.168.110.201 is reachable.
+192.168.110.202 is reachable.
+192.168.110.203 is reachable.
+192.168.110.204 is reachable.
+192.168.110.205 is reachable.
+-------------------------------------------------------------------------------- 
+
+All tasks completed.
+
+ -------------------------------------------------------------------------------- 
+
+
+
+PING 192.168.110.140 (192.168.110.140) 56(84) bytes of data.
+64 bytes from 192.168.110.140: icmp_seq=1 ttl=255 time=17.5 ms
+64 bytes from 192.168.110.140: icmp_seq=2 ttl=255 time=5.98 ms
+64 bytes from 192.168.110.140: icmp_seq=3 ttl=255 time=4.53 ms
+64 bytes from 192.168.110.140: icmp_seq=4 ttl=255 time=60.6 ms
+64 bytes from 192.168.110.140: icmp_seq=5 ttl=255 time=9.69 ms
+
+--- 192.168.110.140 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4007ms
+rtt min/avg/max/mdev = 4.525/19.650/60.593/20.957 ms
+PING 192.168.110.200 (192.168.110.200) 56(84) bytes of data.
+64 bytes from 192.168.110.200: icmp_seq=1 ttl=255 time=767 ms
+64 bytes from 192.168.110.200: icmp_seq=2 ttl=255 time=772 ms
+64 bytes from 192.168.110.200: icmp_seq=3 ttl=255 time=779 ms
+64 bytes from 192.168.110.200: icmp_seq=4 ttl=255 time=787 ms
+64 bytes from 192.168.110.200: icmp_seq=5 ttl=255 time=803 ms
+
+--- 192.168.110.200 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4000ms
+rtt min/avg/max/mdev = 766.924/781.486/802.750/12.537 ms
+PING 192.168.110.201 (192.168.110.201) 56(84) bytes of data.
+64 bytes from 192.168.110.201: icmp_seq=1 ttl=255 time=166 ms
+64 bytes from 192.168.110.201: icmp_seq=2 ttl=255 time=30.3 ms
+64 bytes from 192.168.110.201: icmp_seq=3 ttl=255 time=38.6 ms
+64 bytes from 192.168.110.201: icmp_seq=4 ttl=255 time=79.6 ms
+64 bytes from 192.168.110.201: icmp_seq=5 ttl=255 time=92.4 ms
+
+--- 192.168.110.201 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4009ms
+rtt min/avg/max/mdev = 30.274/81.295/165.508/48.257 ms
+PING 192.168.110.202 (192.168.110.202) 56(84) bytes of data.
+64 bytes from 192.168.110.202: icmp_seq=1 ttl=255 time=15.6 ms
+64 bytes from 192.168.110.202: icmp_seq=2 ttl=255 time=8.42 ms
+64 bytes from 192.168.110.202: icmp_seq=3 ttl=255 time=88.3 ms
+64 bytes from 192.168.110.202: icmp_seq=4 ttl=255 time=26.4 ms
+64 bytes from 192.168.110.202: icmp_seq=5 ttl=255 time=28.2 ms
+
+--- 192.168.110.202 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4010ms
+rtt min/avg/max/mdev = 8.415/33.369/88.271/28.386 ms
+PING 192.168.110.203 (192.168.110.203) 56(84) bytes of data.
+64 bytes from 192.168.110.203: icmp_seq=1 ttl=255 time=28.5 ms
+64 bytes from 192.168.110.203: icmp_seq=2 ttl=255 time=1101 ms
+64 bytes from 192.168.110.203: icmp_seq=3 ttl=255 time=101 ms
+64 bytes from 192.168.110.203: icmp_seq=4 ttl=255 time=39.0 ms
+64 bytes from 192.168.110.203: icmp_seq=5 ttl=255 time=111 ms
+
+--- 192.168.110.203 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4010ms
+rtt min/avg/max/mdev = 28.547/276.106/1101.324/413.888 ms, pipe 2
+PING 192.168.110.204 (192.168.110.204) 56(84) bytes of data.
+64 bytes from 192.168.110.204: icmp_seq=1 ttl=255 time=4.93 ms
+64 bytes from 192.168.110.204: icmp_seq=2 ttl=255 time=13.4 ms
+64 bytes from 192.168.110.204: icmp_seq=3 ttl=255 time=8.81 ms
+64 bytes from 192.168.110.204: icmp_seq=4 ttl=255 time=4.73 ms
+64 bytes from 192.168.110.204: icmp_seq=5 ttl=255 time=4.60 ms
+
+--- 192.168.110.204 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4010ms
+rtt min/avg/max/mdev = 4.602/7.296/13.409/3.438 ms
+PING 192.168.110.205 (192.168.110.205) 56(84) bytes of data.
+64 bytes from 192.168.110.205: icmp_seq=1 ttl=255 time=9.72 ms
+64 bytes from 192.168.110.205: icmp_seq=2 ttl=255 time=6.18 ms
+64 bytes from 192.168.110.205: icmp_seq=3 ttl=255 time=10.5 ms
+64 bytes from 192.168.110.205: icmp_seq=4 ttl=255 time=5.41 ms
+64 bytes from 192.168.110.205: icmp_seq=5 ttl=255 time=9.21 ms
+
+--- 192.168.110.205 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4009ms
+rtt min/avg/max/mdev = 5.413/8.195/10.456/2.013 ms
+--------------------------------------------------------------------------------
+2022-02-20 12:55:01.555466
+192.168.110.140 is reachable.
+192.168.110.200 is reachable.
+192.168.110.201 is reachable.
+192.168.110.202 is reachable.
+192.168.110.203 is reachable.
+192.168.110.204 is reachable.
+192.168.110.205 is reachable.
+-------------------------------------------------------------------------------- 
+
+All tasks completed.
+
+ -------------------------------------------------------------------------------- 
+
+
+

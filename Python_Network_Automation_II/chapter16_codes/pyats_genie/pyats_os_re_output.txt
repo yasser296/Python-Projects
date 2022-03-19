@@ -1,0 +1,107 @@
+{
+  "version": {
+    "bootldr": "7200 Software (C7200-ADVENTERPRISEK9-M), Version 12.4(4)T1, RELEASE SOFTWARE (fc4)",
+    "chassis": "7206VXR",
+    "chassis_sn": "4279256517",
+    "compiled_by": "ccai",
+    "compiled_date": "Wed 21-Dec-05 22:58",
+    "curr_config_register": "0x2102",
+    "disks": {
+      "slot 0 (Sector size 512 bytes).": {
+        "disk_size": "65536",
+        "type_of_disk": "ATA PCMCIA card"
+      }
+    },
+    "hostname": "R1",
+    "image_id": "C7200-ADVENTERPRISEK9-M",
+    "image_type": "production image",
+    "label": "RELEASE SOFTWARE (fc4)",
+    "last_reload_reason": "power-on",
+    "main_mem": "491520",
+    "number_of_intfs": {
+      "FastEthernet": "3",
+      "Serial": "4"
+    },
+    "os": "IOS",
+    "platform": "7200",
+    "processor_board_flash": "8192K",
+    "processor_type": "NPE400",
+    "rom": "ROMMON Emulation Microcode",
+    "rtr_type": "7206VXR",
+    "system_image": "tftp://255.255.255.255/unknown",
+    "uptime": "1 hour, 6 minutes",
+    "version": "12.4(4)T1",
+    "version_short": "12.4"
+  }
+}
+{
+  "version": {
+    "chassis": "IOSv",
+    "chassis_sn": "9CRAXRB595M",
+    "compiled_by": "mmen",
+    "compiled_date": "Wed 22-Mar-17 08:38",
+    "curr_config_register": "0x101",
+    "hostname": "SW3",
+    "image_id": "vios_l2-ADVENTERPRISEK9-M",
+    "image_type": "developer image",
+    "label": "[mmen 101]",
+    "last_reload_reason": "Unknown reason",
+    "main_mem": "652537",
+    "mem_size": {
+      "non-volatile configuration": "256"
+    },
+    "number_of_intfs": {
+      "Gigabit Ethernet": "4",
+      "Virtual Ethernet": "1"
+    },
+    "os": "IOS",
+    "platform": "vios_l2",
+    "processor_board_flash": "0K",
+    "processor_type": "",
+    "returned_to_rom_by": "reload",
+    "rom": "Bootstrap program is IOSv",
+    "rtr_type": "IOSv",
+    "system_image": "flash0:/vios_l2-adventerprisek9-m",
+    "uptime": "10 minutes",
+    "version": "15.2(20170321:233949)",
+    "version_short": "15.2"
+  }
+}
+
+ 
+
+
+
+the type of the output is:  <class 'str'> 
+
+
+
+['R1', 'SW3'] 
+
+
+
+['1 hour, 6 minutes', '10 minutes'] 
+
+
+
+[0.02, 0.17]
+
+
+
+
+{'R1': 0.02, 'SW3': 0.17} 
+
+
+
+  host  uptime
+0   R1    0.02
+1  SW3    0.17 
+
+
+
++------+--------+
+| host | uptime |
++------+--------+
+| R1   | 0.02   |
+| SW3  | 0.17   |
++------+--------+

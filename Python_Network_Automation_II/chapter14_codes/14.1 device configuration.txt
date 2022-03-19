@@ -1,0 +1,33 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!! For LAB-R1, lab-r2, R1
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+configure terminal
+ip domain-name salvary.com
+crypto key generate rsa
+1024
+!
+line vty 0 15
+transport input all
+end
+write memory
+!
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!! For LAB-SW1, lab-sw2
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+enable
+configure terminal
+ip domain-name salvary.com
+crypto key generate rsa
+1024
+!
+line vty 0 15
+transport input all
+end
+write memory
+!
+
+
+

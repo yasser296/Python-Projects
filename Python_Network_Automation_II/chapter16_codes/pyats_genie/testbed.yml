@@ -1,0 +1,27 @@
+devices:
+  R1:
+    connections:
+      cli:
+        ip: 192.168.110.140
+        protocol: ssh
+    credentials:
+      default:
+        password: '123'
+        username: yasser
+      enable:
+        password: '123'
+    os: ios
+    type: ios
+  SW3:
+    connections:
+      cli:
+        ip: 192.168.110.204
+        protocol: ssh
+    credentials:
+      default:
+        password: '123'
+        username: yasser
+      enable:
+        password: '123'
+    os: iosxe
+    type: iosxe
